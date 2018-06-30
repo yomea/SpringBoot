@@ -1,0 +1,13 @@
+
+hello:
+  world:  ${random.value}
+random:
+  int: ${random.int}
+
+
+subject: beijing
+sayHello: hello,${subject}
+
+a: 
+ aa: bb
+ cc: dd
